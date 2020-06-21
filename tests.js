@@ -1,6 +1,6 @@
 const { expect } = require('chai')
 const { describe, it } = require('mocha')
-const calculateScore = require('./scoring')
+const calculateScore = require('./index.js')
 
 describe('calculateScore', () => {
   it('returns the score for a quarterback', function () {
